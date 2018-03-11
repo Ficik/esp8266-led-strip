@@ -1,0 +1,16 @@
+#define MQTT_SERVER "X.X.X.X"
+#define MQTT_USER ""
+#define MQTT_PASS ""
+#define MQTT_CLIENT_NAME "espledstrip"
+#define MQTT_SUBSCRIBE "/x/y"
+
+#define MQTT_PUBLISH_STATE MQTT_SUBSCRIBE "/state"
+#define MQTT_PUBLISH_BRIGHTNESS MQTT_SUBSCRIBE "/brightness"
+#define MQTT_PUBLISH_COLOR MQTT_SUBSCRIBE "/color"
+
+#define WIFI_SSID "SSID"
+#define WIFI_PASS "xxxx"
+
+#define NUM_LEDS 50
+#define LED_DATA_PIN 4
+
